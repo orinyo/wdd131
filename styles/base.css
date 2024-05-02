@@ -1,4 +1,4 @@
-/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* Header styles */
@@ -20,11 +22,30 @@ header {
 
 header h1 {
     margin-bottom: 10px;
+    background-color: #3d0dad;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    background-color: #203860;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  
 }
 
 /* Navigation styles */
 nav ul {
     list-style-type: none;
+    text-align: center;
 }
 
 nav ul li {
@@ -61,6 +82,34 @@ footer {
     padding: 20px;
 }
 
+h3 {
+    text-align: center;
+    color: #333;
+  }
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.me {
+    max-width: 180px;
+    float: right;
+    padding-left: 15px;
+}
+
+.kenya-flag {
+    max-width: 180px;
+    float: left;
+    margin-right: 20px;
+}
+
 footer p {
     margin-bottom: 10px;
+    background-color: #3d0dad;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 1rem;
+    text-align: center;
 }
