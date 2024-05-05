@@ -1,0 +1,22 @@
+/* Additional styling for larger screens */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+figure {
+    width: 30%;
+    margin: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    text-align: center;
+}
